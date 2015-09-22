@@ -3,6 +3,7 @@ web:
   volumes:
     - "./modules:/app/modules"
     - "./themes:/app/themes"
+    - "./config:/app/sites/default/config"
   ports:
     - "8082:80"
   environment:
